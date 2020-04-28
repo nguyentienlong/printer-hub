@@ -1,6 +1,9 @@
 ## Prerequisites
 
+Need to install these sofwares/library
+
 ```
+wkhtmltopdf
 python3
 pip
 pipenv
