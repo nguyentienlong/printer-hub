@@ -24,7 +24,7 @@ WKHTMLTOPDF_PATH = C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe
 Open CMD, run these command to install
 ```
 pipenv install
-pipenv sheel
+pipenv shell
 python main.py
 ```
 output
