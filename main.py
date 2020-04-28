@@ -28,7 +28,7 @@ def hello_world():
     return 'Printer Hub'
 
 
-@app.route('/printer/print', methods=['POST'])
+@app.route('/printer/print', methods=['POST', 'GET'])
 def printer_print():
     if request.is_json:
         data = request.json
@@ -36,9 +36,9 @@ def printer_print():
 
         os.system('python print_handler.py "{}"'.format(data))
 
-        return data
+        return {"msg": "ok"}
 
-    return Response("{'msg':'fail'}", status=400, mimetype='application/json')
+    return Response("{'msg':'fail'}", status=400, mimetype='application/json', headers={'Access-Control-Allow-Origin':'*'})
 
 
 if __name__ == '__main__':
