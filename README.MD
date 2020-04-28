@@ -1,4 +1,4 @@
-## prerequisite
+## Prerequisites
 
 ```
 python3
@@ -6,7 +6,7 @@ pip
 pipenv
 ```
 
-## install
+## Installation
 
 [Link](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox-0.12.5-1.msvc2015-win64.exe) to download `wkhtmltopdf`
 
@@ -36,7 +36,7 @@ output
 ```
 
 
-## client
+## Client
 
 `a27ed5ba.ngrok.io` can be changed
 
