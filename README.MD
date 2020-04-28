@@ -59,3 +59,7 @@ curl --location --request POST 'http://a27ed5ba.ngrok.io/printer/print' \
     "printer_name": "default"
 }'
 ```
+
+## Trace log
+
+You can check log via `app.log` file
