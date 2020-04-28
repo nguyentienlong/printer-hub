@@ -40,6 +40,8 @@ output
 
 `a27ed5ba.ngrok.io` can be changed
 
+**notice: `data` must be in json, `content` in data should be in base 64 encoded**
+
 ```
 curl --location --request POST 'http://a27ed5ba.ngrok.io/printer/print' \
 --header 'Content-Type: application/json' \
