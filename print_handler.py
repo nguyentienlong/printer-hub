@@ -66,5 +66,5 @@ if url:
     )
 
 logger.info("print to out.pdf")
+os.system("RUNDLL32 PRINTUI.DLL,PrintUIEntry /y /n \"{}\"".format(printer_name))
 os.startfile("out.pdf", "print")
-
