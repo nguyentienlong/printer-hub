@@ -74,15 +74,6 @@ if content:
         options=options
     )
 
-if url:
-    logger.info("url {}" + url)
-    rs = pdfkit.from_url(
-        url,
-        "out.pdf",
-        configuration=config,
-        options=options
-    )
-
 logger.info("print to out.pdf")
 logger.info("printer_name {}".format(printer_name))
 os.system("RUNDLL32 PRINTUI.DLL,PrintUIEntry /y /n \"{}\"".format(printer_name))
