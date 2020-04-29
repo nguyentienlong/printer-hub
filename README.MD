@@ -11,14 +11,20 @@ pipenv
 
 ## Installation
 
-[Link](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox-0.12.5-1.msvc2015-win64.exe) to download `wkhtmltopdf`
+Mandatory sofwares:
+
+- Need to install pdf reader
+
+- [Link](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox-0.12.5-1.msvc2015-win64.exe) to download `wkhtmltopdf`
 
 Then install to path same as `app.ini` file
 
+**Notice:** Need to map `PrinterLabel` and `PrinterPaper` to local printer name 
 ```
 [default]
 WKHTMLTOPDF_PATH = C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe
-
+PrinterLabel = TSC TE200
+PrinterPaper = BrotherHL-L2320D-series
 ```
 
 Open CMD, run these command to install

@@ -10,6 +10,7 @@ pdfkit = "*"
 configparser = "*"
 config = "*"
 flask = "==1.1.2"
+websockets = "*"
 
 [requires]
 python_version = "3.8"
