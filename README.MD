@@ -1,4 +1,4 @@
-## Printer Hub
+## Printer helper for window os
 If you don't need to use web browser preview before printing
 
 ## Prerequisites
